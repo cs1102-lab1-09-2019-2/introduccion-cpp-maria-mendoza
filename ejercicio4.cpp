@@ -1,5 +1,7 @@
-
+#import <iostream>
+using namespace std;
 int main() {
+    double i, c;
     i = 1;
 
     // Post-incremento asigna i a c y luego incrementa i

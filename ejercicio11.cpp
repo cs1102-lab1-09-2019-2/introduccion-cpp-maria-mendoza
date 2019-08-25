@@ -1,3 +1,7 @@
+#include <iostream>
+using namespace std;
+
+
 
 bool esPalindromo(int n) {
     bool palindromo = true;
@@ -9,7 +13,7 @@ bool esPalindromo(int n) {
             break;
         }
     }
-
+    return palindromo;
 }
 
 int main() {
